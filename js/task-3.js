@@ -1,4 +1,5 @@
 const inputElement = document.querySelector("input#name-input");
+const OutputElement = document.querySelector("input#name-output")
 inputElement.addEventListener("input", (event) => {
     console.log(event);
     console.log(event.currentTarget);
