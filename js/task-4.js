@@ -12,5 +12,6 @@ forma.addEventListener("submit", (event) => {
       password
   };
   console.log(user);
+    forma.reset();
   }
 }); 
