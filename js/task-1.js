@@ -1,5 +1,5 @@
 const elements = document.querySelectorAll('.item'); 
-console.log("Nubmer of calories:" + elements.length)
+console.log("Nubmer of categories:" + elements.length)
 
 elements.forEach((item) =>
 {
