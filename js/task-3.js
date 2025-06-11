@@ -4,10 +4,10 @@ inputElement.addEventListener("input", (event) => {
     console.log(event);
     console.log(event.currentTarget);
     console.log(event.currentTarget.value.trim());
-    if(input.value.trim()){
-spanElement.innerHTML = input.value
+    if(event.currentTarget.value.trim()){
+outptElement.innerHTML = inputElement.value.trim()
 } else {
-spanElement.innerHTML = input.value
+outputElement.innerHTML = outputElement.value
 }
   });
 
