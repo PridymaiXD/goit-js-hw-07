@@ -1,9 +1,10 @@
 const inputElement = document.querySelector("input#name-input");
-const OutputElement = document.querySelector("input#name-output")
+const outputElement = document.querySelector("input#name-output")
 inputElement.addEventListener("input", (event) => {
     console.log(event);
     console.log(event.currentTarget);
     console.log(event.currentTarget.value.trim());
+    innerHTML 
   });
 
  `<input type="text" id="name-input" placeholder="Please enter your name" />
