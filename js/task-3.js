@@ -4,7 +4,11 @@ inputElement.addEventListener("input", (event) => {
     console.log(event);
     console.log(event.currentTarget);
     console.log(event.currentTarget.value.trim());
-    innerHTML 
+    if(input.value.trim()){
+spanElement.innerHTML = input.value
+} else {
+spanElement.innerHTML = input.value
+}
   });
 
  `<input type="text" id="name-input" placeholder="Please enter your name" />
