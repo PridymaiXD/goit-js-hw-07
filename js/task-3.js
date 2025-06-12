@@ -4,10 +4,10 @@ inputElement.addEventListener("input", (event) => {
     console.log(event);
     console.log(event.currentTarget);
     console.log(event.currentTarget.value.trim());
-    if(event.currentTarget.value.trim()){
+    if(inputElement.value.trim()){
 outptElement.innerHTML = inputElement.value.trim()
 } else {
-outputElement.innerHTML = outputElement.value
+outputElement.innerHTML = "Anonymous"
 }
   });
 
